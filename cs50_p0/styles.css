@@ -1,0 +1,301 @@
+
+
+.navbar {
+    text-align: right;
+/*    padding-bottom: 10em;*/
+    padding-top: 0.5em;
+    margin-bottom: 10%;
+    justify-content: end !important;
+  /*  display: block;*/
+}
+
+a {
+    line-height: 24px;
+    vertical-align: middle;
+    color: rgba(0,0,0,0.87) !important;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    white-space: nowrap;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    margin-right: 1.5rem;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.form-container {
+    margin: 20% 0%;
+/*    border:3px rgb(52, 165, 42) solid; */
+}
+
+.search-input-div {
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border:1px solid rgb(153, 153, 153);
+    padding: 5px;
+    margin:2% 30% 1%;
+}
+
+.material-icons {
+    padding: 1%;
+    vertical-align:middle;
+  /*  border: 1px black solid; */
+    color: rgb(80, 77, 77);
+    font-size: 1.5rem;
+}
+
+
+.input-class {
+    width: auto;
+    border:0px;
+    /*
+    align-items: center;
+    */
+    line-height: 36px;
+    font-size: 1.5rem;
+    color: rgb(67, 64, 61);
+    vertical-align: middle;
+
+}
+
+.input-class:focus {
+    font-size: 1.5rem;
+    vertical-align:middle;
+    border:0px;
+    outline: none;
+}
+
+.buttons-input-div {
+    text-align: center;
+}
+
+.btn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.btn:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+
+}
+
+/************************************************************************************************/
+/* Advanced Search */
+
+.div-label {
+    margin: 5% 10% 2%;
+    font-size: 20px;
+}
+
+.label-advanced-search {
+    font-family: arial,sans-serif;
+    color: #d93025;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+hr {
+    border-top: 0.3px solid rgb(211, 209, 209);
+  }
+
+
+  /*********** Form *********/
+  .container .row {
+      line-height: initial;
+      align-items: center;
+      margin: 5px 0px;
+      padding: 3px 0px;
+  }
+
+  .col-2 {
+    /*  width: 14% !important;*/
+  }
+
+  .container .row:first-of-type .col-2 {
+    font-size: 100%;
+  }
+
+  .container .row .col-2 {
+    font-family: arial,sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight:100;
+    font-style: inherit;
+    font-size: 85%;
+    vertical-align: baseline;
+    text-decoration: none;
+  }
+  
+   .container .row .col-6 input {
+      border-radius: 1px;
+      border: 1px solid #d9d9d9;
+      border-top: 1px solid #c0c0c0;
+      font-size: 13px;
+      height: 29px;
+      padding: 1px 8px;
+      width: 100%;
+      text-align: left;
+    }
+
+    .container .row .col-6 input:focus {
+      box-shadow: inset 0 1px 2px rgb(0 0 0 / 30%);
+      border: 1px solid #4d90fe;
+      outline: none;
+
+    }
+
+  .container .row:first-of-type .col-4 {
+      font-weight: bold;
+      font-size: 13px;
+      }
+
+  .container .row .col-4 {
+    font-family: arial,sans-serif;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: none;
+    float: left;
+    display: inline-block;
+    width: 32%;
+    min-width: 160px;
+    margin: 0 0 0px 1%;
+    color: #555;
+    font-size: 11px;
+    padding-left: 5px;
+    vertical-align: middle;
+    position: relative;
+  }
+
+  .container .row .col-4 .col-12 {
+    font-family: arial,sans-serif;
+    color: #555;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    text-decoration: none;
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .container .row .col-4 .col-12 .span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+/*    white-space: pre; */
+  }
+
+  /* button */
+
+  .search-button-div {
+    font-family: arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    text-decoration: none;
+    float: right;
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+    text-align: right;
+  }
+
+  .advanced-regular-input {
+    border-radius: 2px !important;
+    cursor: default !important;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    outline: 0;
+    box-shadow: none;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+    padding: 0 12px;
+    float: right;
+    margin: 10px 0;
+    user-select: none;
+    line-height: 100%;
+    height: 30px;
+    min-width: 120px;
+    -webkit-user-select:none;
+    user-select:none;
+    line-height:100%;
+    height:30px;
+    min-width:120px;
+    width: auto !important;
+  }
+
+  .advanced-regular-input:active {
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 30%);
+    background: #357ae8;
+    border: 1px solid #2f5bb7;
+    border-top: 1px solid #2f5bb7;
+  }
+  
+  .advanced-regular-input:focus {
+    box-shadow: inset 0 0 0 1px #fff !important;
+    border: rgba(0,0,0,0) solid 1px !important;
+    outline: rgba(0,0,0,0) 0 !important;
+    /*
+    border: 1px solid #fff;
+    outline: 1px solid #4d90fe;
+    */
+  }
+
+ .advanced-regular-input:hover {
+    background-color: #357ae8;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#357ae8);
+    border: 1px solid #2f5bb7;
+    border-image: initial;
+    /*
+    border: 1px solid #fff;
+    outline: 1px solid #4d90fe;
+    */
+  }
